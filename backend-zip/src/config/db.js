@@ -1,8 +1,13 @@
 const mongoose = require("mongoose")
+require("dotenv").config();
 
-const mongoDbUrl='mongodb+srv://ritiksingh4989:vtDilQGgu0zDRhFl@cluster0.h7zymea.mongodb.net/mern_admin?retryWrites=true&w=majority&appName=Cluster0'
 const connectDb=()=>{
-    return mongoose.connect(mongoDbUrl)
+    return mongoose.connect(process.env.mongoDbUrl, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        tls: true, // Enable TLS/SSL
+        tlsAllowInvalidCertificates: true,  
+    })
 }
 
 module.exports={connectDb}
