@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 const DEPLOYED='https://pear-poised-hen.cyclic.app/'
-const LOCALHOST='https://shrromcraftbackend.onrender.com/'
+const LOCALHOST='https://shrromcraftbackend.onrender.com'
 
 export const API_BASE_URL = process.env.REACT_APP_API_URL || LOCALHOST;
 
