@@ -30,7 +30,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/api/admin/products/",
+					"raw": "https://shrromcraftbackend.onrender.com/api/admin/products/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -64,7 +64,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/auth/signin",
+					"raw": "https://shrromcraftbackend.onrender.com/auth/signin",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -103,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/user/new_address/1",
+					"raw": "https://shrromcraftbackend.onrender.com/user/new_address/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -164,7 +164,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/api/admin/products/",
+					"raw": "https://shrromcraftbackend.onrender.com/api/admin/products/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -196,7 +196,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/users/profile",
+					"raw": "https://shrromcraftbackend.onrender.com/api/users/profile",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -227,7 +227,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/products?color=&size=&minPrice=0&maxPrice=10000&minDiscount=0&category=men_jeans&stock=null&sort=price_high&pageNumber=1&pageSize=10",
+					"raw": "https://shrromcraftbackend.onrender.com/api/products?color=&size=&minPrice=0&maxPrice=10000&minDiscount=0&category=men_jeans&stock=null&sort=price_high&pageNumber=1&pageSize=10",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -299,7 +299,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/products/search?q=kurtis",
+					"raw": "https://shrromcraftbackend.onrender.com/api/products/search?q=kurtis",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -336,7 +336,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/products?category=\"mens_kurta\"",
+					"raw": "https://shrromcraftbackend.onrender.com/api/products?category=\"mens_kurta\"",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -372,7 +372,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/products/id/52",
+					"raw": "https://shrromcraftbackend.onrender.com/api/products/id/52",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -413,7 +413,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/api/cart/add",
+					"raw": "https://shrromcraftbackend.onrender.com/api/cart/add",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -444,7 +444,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/cart/",
+					"raw": "https://shrromcraftbackend.onrender.com/api/cart/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -475,7 +475,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/cart_items/1",
+					"raw": "https://shrromcraftbackend.onrender.com/api/cart_items/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -515,7 +515,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/api/cart_items/1",
+					"raw": "https://shrromcraftbackend.onrender.com/api/cart_items/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -555,7 +555,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5454/api/orders/",
+					"raw": "https://shrromcraftbackend.onrender.com/api/orders/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -586,7 +586,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/payments/64c252e0ec2b65654a755ca2",
+					"raw": "https://shrromcraftbackend.onrender.com/api/payments/64c252e0ec2b65654a755ca2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -617,7 +617,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/payments?payment_id=pay_LogMAJC5zeRKDr&order_id=10",
+					"raw": "https://shrromcraftbackend.onrender.com/api/payments?payment_id=pay_LogMAJC5zeRKDr&order_id=10",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -657,7 +657,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5454/api/orders/user",
+					"raw": "https://shrromcraftbackend.onrender.com/api/orders/user",
 					"protocol": "http",
 					"host": [
 						"localhost"
